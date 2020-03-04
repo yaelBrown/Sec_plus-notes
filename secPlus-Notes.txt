@@ -1,1 +1,88 @@
 Security+ notes
+
+CIA's of Security
+  Confidentiality - keeping data secret from people who do not have the need to access the data
+  Integrity - ensures data and systems stay in an altered store when data is stored, transmitted, or recieved
+  Availability - systems are available to authorized users when needed
+
+  Auditing and Accountability - keeping track of whats been going on (logging)
+  Non-Repudiation - User cannot deny making some form of cummication.
+
+Risk Management
+  (threats x Vulnerabilities = risk)
+  Potential to harm organizations or people
+  NIST SPA-800-37
+
+  Assets - Part of infrasture that we are worried about getting harmed.
+    people/computers
+    reputations
+  Vulnerabilities - Weakness to a asset that leaves it access to something bad to happen
+  Threat - negative event that exploits a Vulnerability
+    Threat Agent - Often a human being doing something
+  Likelihood - Defines the level certainty that something bad is going to happen
+    Quantitative - Can put a number to the risk (looking at data for powersupply going out)
+    Qualitative - Hard to put a number to (customer loyalty)
+  Impact - is the harm caused by a threat.
+    Can be measured by cost/labor
+
+Threat Actors
+  Internal or External
+  Resources
+  Funding
+  Intent - What's their motivation
+  Open-source Intelligence (OSINT) - Facebook, google.
+
+  Script Kiddies - Trivial attack knowledge, easily blocked with good firewall
+  Hacktivist - Intent is motivation
+  Organized Crime - Very smart groups of people who want to make money
+  Nation states/advanced persistent threat (APT)
+    APT - They get into a system and stay there.
+  Insiders - Someone within the organization. Works within the infrasture, may not be an employee.
+  Competitors - Other companies, not as big today.
+
+Managing Risk
+  Risk Identification/Risk Assessment
+  Vulnerability Assessment
+    catalog all the assets
+    cve.mitre.org - Common vulnerabilities and exposure database
+    Nessus - Used to check network for vulnerabilities
+    Penetration Testing - outside party tries to do something to your network
+  Threat Assessment
+    Adversarial - Hacker or Malware
+    Accidental - User accidentally types something in your form and causes it to show the database
+    Structural - PS on router dies, could include software fails
+    Environmental - fires/earthquakes
+  Risk Response
+    Mitigation - is effort to reduce impact of risk
+    Risk transferance - Offloads risk onto a third-party
+    Risk acceptance - reach a point where likelihood and impact cost exceeds the ability to mitigate.
+    Risk avoidance - Likelihood and impact is so high that you don't want to deal with it
+  Framework - is a process/methodology that tells you how to manage your risks
+    NIST Risk Management Framework Special Publication 800-37
+    ISACA Risk IT Framework
+    IAMIS
+
+Using guides in Risk Assessment
+  How do we secure stuff?
+  Benchmark - use threshold values to verify expected throughput or action
+  Secure Configuration Guide - [comptia is pushing]
+    Platform and Vendor specific guides
+    NIST has a guide, (secure configuration)
+    Securing wireless networks - SP 800-153
+
+Security Controls [compare and contrast various types of controls]
+  Security Control (its a verb) - What you do to secure your network
+    Apply, Monitor and Adjust security controls
+    Administrative Control (Management Controls)
+      Laws
+      Policies
+      Guidelines
+      Best Practices
+    Technical Control - Control actions IT systems towards IT security
+      Computer stuff
+      Firewalls
+      Password Links
+      Authentication
+      Encryption
+
+1.7 2:32
