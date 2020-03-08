@@ -70,7 +70,7 @@ Using guides in Risk Assessment
     NIST has a guide, (secure configuration)
     Securing wireless networks - SP 800-153
 
-Security Controls [compare and contrast various types of controls]
+Security Controls [compare and contrast various types of controls] - threat actors doing something to us
   Security Control (its a verb) - What you do to secure your network
     Apply, Monitor and Adjust security controls
     Administrative Control (Management Controls)
@@ -84,5 +84,56 @@ Security Controls [compare and contrast various types of controls]
       Password Links
       Authentication
       Encryption
+    Physical Control - actions real world actors make against IT
+      Gates
+      Guards
+      Keys
+      Man Traps
+  Security Control functions
+    Deterrent - deters the act from attempting the threats
+    Preventive - deters the actor from performing the threat
+    Detective - recognizes an actors threat
+    Corrective - Mitigates the impact of a manifested threat
+    Compensating - provides alternative fixes to any of the above functions
+  [What type of security control needs to be applied for that situation]
 
-1.7 2:32
+Interesting Security Control
+  Mandatory Vacation - Used to detect fraud and unauthorized activity
+  Job Rotation - Periodically switiching people around to work in different positions.
+    Avoids contempt of position
+  Multi-person control - More than one person is required to perform a task or control.
+  Seration of Duties - [Administrative Control] Single individual should not perform all critical privledge duties across the board
+  Principle of Least privledge - People get enough privledge to perform the tasks they need.
+
+Defense in depth or Layered Security
+  Diversity vs Redundancy - Trench system, a lot of trenches.
+    Good defense in depth, also has good Diversity
+  
+IT Security Governance
+  Laws and Regulations
+    ex. HIPAA
+  Standards
+    ex. ISO, NIST, PCI-DSS
+  Best Practices
+    ex. Microsoft Best Practices
+  Common Sense
+    good ole common sense and experience
+    What just sounds right
+    What worked in the Past
+  Policies
+    broad in nature
+    used as directives
+    Define roles and Responsibilities
+  Organization Standards
+    Level of performance for a policy
+      it must be 12 chars alphanum etc
+  Security Controls are in Policies and Standards
+    Not usually a big list
+  Procedures
+    Step by step process how to do something
+    How to do the task
+  
+Security Policies
+
+
+1.11 0:36
