@@ -108,7 +108,7 @@ Interesting Security Control
 Defense in depth or Layered Security
   Diversity vs Redundancy - Trench system, a lot of trenches.
     Good defense in depth, also has good Diversity
-  
+
 IT Security Governance
   Laws and Regulations
     ex. HIPAA
@@ -132,8 +132,56 @@ IT Security Governance
   Procedures
     Step by step process how to do something
     How to do the task
-  
+
 Security Policies
+  [know all the policies for exam]
+  Acceptable Use Policies - What a person can or cannot do on company assets
+    No pornograpy or ebay
+  Data Sensitivity and Classification Policies - How to define how important things all
+  Access Control Policies - How people get access to data and other resources
+    Fairly big document
+  Password Policy - How you will define passwords
+    Password recovery
+    Bad login
+    Password Retention
+    Password reuse
+  Care and Use of equipment - How you maintain company equipment, what are your Responsibilities
+  Privacy Policies - Often applied to customers
+  Personnel Policies - background checks, security clearances
 
+Framworks
+  A Process Idea
+    Regulatory
+    Non-Regulatory
+    National Standards
+    International Standards
+    Industry-specific Frameworks
+  NIST SP800-37
+    First and goto place.
+    Risk Management Framework
+    6 Steps
+      Categorize - identify assessts
+      Select - select security controls
+      Implement - implement controls
+      Assessment - verify controls are working
+      Authorize - big boss makes final decision
+      Monitor - stay on top of controls, watch them. Process gets repeated after this.
+  ISACA IT Framework
+  ISO 27000
 
-1.11 0:36
+Quantitative Risk Calculations
+  [Will need to know how to generate these calculations on the exam]
+  Assesing asset values
+    Asset Value
+  Exposure Factor - Percentage of an asset that's lost as a result of an incident
+    1 = Complete write off. (Floor in Server room)
+  Single Loss Expectancy (SLE) - Asset Value * Exposure Factor
+  Annualize Rate of Occurrance (ARO) - Chance of Loss to happen.
+  Annualize Loss Expectancy (ALE) - SLE * ARO
+    Important Value, Cost of that incident
+  Mean Time To Repair (MTTR) - How long it takes to repair an asset after it has failed
+  Mean Time To Fail (MTTF) - How long it takes for working equipment to fail
+
+Business Impact Analysis
+
+1.14 0:01
